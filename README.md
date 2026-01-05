@@ -143,4 +143,124 @@
 
 </body>
 </html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+header {
+  background: #111;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 40px;
+  background: linear-gradient(to right, #111, #333);
+  color: #fff;
+  text-align: center;
+}
+
+.hero span {
+  color: #00ffcc;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.btn {
+  background: #00ffcc;
+  padding: 12px 25px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.card {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* CASE STUDIES */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.case-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #e0e0e0;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
 
